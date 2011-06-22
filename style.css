@@ -1,0 +1,205 @@
+/************************************************************************ BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************************************************************** BASIC STYLES */
+body, h1 {
+  font-size: 18px;
+  line-height: 26px;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+section h1 {
+  font-size: 1.66666666666666666666em; /* 30 % 18 */
+  line-height: 1.73333333333333333332em; 
+  margin: 0.86666666666666666666em 0;
+}
+
+section p {
+  font-size: 1em;  /* 18 % 18 */
+  line-height: 1.44444444444444444444em;
+  margin-bottom: 1.44444444444444444444em;
+}
+
+section p.summary {
+  font-size: 1.11111111111111111111em;  /* 20 % 18 */
+  line-height: 1.3em;
+  margin-bottom: 1.3em;
+  color: #6CB3D7;
+}
+
+aside {
+  margin-top: 5.77777777777777777777em;
+}
+
+aside p {
+  font-size: .77777777777777777777em; /* 14 % 18 */
+  line-height: 1.85714285714285714285em;
+  margin-bottom: 1.85714285714285714285em;
+}
+
+footer { 
+	clear: both;
+	width: 100%;
+	background: #eee;
+	margin-bottom: 20px;
+	}
+footer small {
+	display: inline-block;
+	padding: 5px;
+}
+
+/**************************************************************** GRID COMMON STYLES */
+#grid {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+#grid div.horiz {
+  border-bottom: 1px dotted #AAA;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width:0px){ /************************************* 0-480 */
+	/* GRID 1 */
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
+	}
+	#grid.grid-1 {
+	  width: 320px; 
+	  margin-left: -160px;
+	}
+	#grid.grid-1 div.vert {
+	  width: 43px;
+	  margin-right: 10px; /* ((43+10)*6)-10 = 308 content width */
+	  background: #ff0;
+	  opacity: 0.1;
+	}
+	#grid.grid-1 div.vert.first-line {
+	  margin-left: 5px;
+	}
+	
+	body {
+	  width: 320px;
+	  color: #ff0;
+	}
+
+	section, aside {
+	  margin-left: 5px;
+	  width: 308px; 
+	  float: none;
+	}
+}
+
+@media screen and (min-width:481px){ /************************************* 481-768px */
+	/* GRID 2 */
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
+	}
+	#grid.grid-2 {
+	  width: 480px; 
+	  margin-left: -240px;
+	}
+	#grid.grid-2 div.vert {
+	  width: 60px;
+	  margin-right: 20px;  /* ((60+20)*6)-20 = 460 content width */
+	  background: #0f0;
+	  opacity: 0.1;
+	}
+	#grid.grid-2 div.vert.first-line {
+	  margin-left: 10px;
+	}
+	
+	body {
+	  width: 480px;
+	  color: #0f0;
+	}
+
+	section, aside {
+	  margin-left: 10px;
+	  width: 460px; 
+	  float: none;
+	}
+
+
+}
+
+@media screen and (min-width:769px){ /************************************* 769-1024px */
+	/* GRID 3 */
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
+	}
+	#grid.grid-3 {
+	  width: 750px; 
+	  margin-left: -375px;
+	}
+	#grid.grid-3 div.vert {
+	  width: 55px;
+	  margin-right: 20px; /* ((55+20)*10)-20 = 730 content width */
+	  background: #f00;
+	  opacity: 0.1;
+	}
+	#grid.grid-3 div.vert.first-line {
+	  margin-left: 10px;
+	}
+	
+	body { /* 750 = 20 + 730 : 130/580 / 205,505 / 280,430 / 355,355 */
+	  width: 750px;
+	  color: #f00;
+	}
+
+	section {
+	  margin-left: 10px;
+	  width: 505px; 
+	  float: left;
+	}
+
+	aside {
+	  margin-right: 10px;
+	  width: 205px; 
+	  float: right;
+	}
+
+}
+
+@media screen and (min-width:1025px){ /************************************* >1025px */
+	/* GRID 4 */
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
+	}
+	#grid.grid-4 {
+	  width: 960px; 
+	  margin-left: -480px;
+	}
+	#grid.grid-4 div.vert {
+	  width: 60px;
+	  margin-right: 20px; /* ((60+20)*12)-20  = 940 content width */
+	  background: #00f;
+	  opacity: 0.1;
+	}
+	#grid.grid-4 div.vert.first-line {
+	  margin-left: 10px;
+	}
+	
+	body {  /* 960 = 20 + 940 : 140,780 / 220,700 / 300,620 / 380,540 / 460,460 */
+	  width: 960px;
+	  color: #00f;
+	}
+
+	section {
+	  margin-left: 10px;
+	  width: 700px; 
+	  float: left;
+	}
+
+	aside {
+	  margin-right: 10px;
+	  width: 220px; 
+	  float: right;
+	}
+}
