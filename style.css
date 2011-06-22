@@ -1,4 +1,4 @@
-/************************************************************************ BASIC RESET */
+/******************************************************************* MOST BASIC RESET */
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ footer small {
 }
 
 #grid div.horiz {
-  border-bottom: 1px dotted #AAA;
+  border-bottom: 1px dotted #aaa;
   margin: 0;
   padding: 0;
 }
