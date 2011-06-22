@@ -6,6 +6,8 @@ Dependencies: hashgrid.com (which uses jquery)
 TO-DO:
 - fix visibility of last column of each design. 
 I changed the usage of hashgrid from border based visualization to borderless and setting a background. That might cause the last column invisibility. 
-
+- Different baselines for each design
+- 
+- 
 
 
