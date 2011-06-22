@@ -3,6 +3,10 @@ Still under developement.
 
 Dependencies: hashgrid.com (which uses jquery)
 
+USE:
+- CMD+G to activate Grid columns visibility
+- J to switch between grids 
+
 TO-DO:
 - fix visibility of last column of each design. 
 I changed the usage of hashgrid from border based visualization to borderless and setting a background. That might cause the last column invisibility. 
