@@ -5,7 +5,8 @@ Dependencies: hashgrid.com (which uses jquery)
 
 USE:
 - CMD+G to activate Grid columns visibility
-- J to switch between grids 
+- change window size until you see another design (made it with other colors)
+- once you get another design you need to press J to adjust the corresponding grid
 
 TO-DO:
 - fix visibility of last column of each design. 
