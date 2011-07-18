@@ -23,35 +23,6 @@
 		<p>He learned they were the wife and the younger sister of a surgeon living at Stanmore, who had come in the small hours from a dangerous case at Pinner, and heard at some railway station on his way of the Martian advance.  He had hurried home, roused the women--their servant had left them two days before--packed some provisions, put his revolver under the seat--luckily for my brother--and told them to drive on to Edgware, with the idea of getting a train there.  He stopped behind to tell the neighbours.  He would overtake them, he said, at about half past four in the morning, and now it was nearly nine and they had seen nothing of him.  They could not stop in Edgware because of the growing traffic through the place, and so they had come into this side lane.</p>
 	</aside>
 	<footer><small>Text extracted from <a href="http://www.fillerati.com/">fillearati</a>, H.G.Wells, Yhe war of the worlds, chapter 10. IN THE STORM. hashgrid.com is used, so you can show/hide and switch between grids.</small></footer>
-	<script>
-		var grids = document.createElement("div");
-		grids.id = "grid";
-		
-		var gv = document.createElement("div");
-		gv.className = "vert-container";
-		
-		for (var i = 0; i < 50; i++) {
-			var gvi = document.createElement("div");
-			if(i==0) gvi.className = "vert first-line";
-			else gvi.className = "vert";
-			
-			gv.appendChild(gvi);
-		}
-		grids.appendChild(gv);
-		
-		var gh = document.createElement("div");
-		gh.className = "horiz-container";
-		
-		for (var i = 0; i < 200; i++) {
-			var ghi = document.createElement("div");
-			if(i==0) ghi.className = "horiz first-line";
-			else ghi.className = "horiz";
-			
-			gh.appendChild(ghi);		
-		}
-		grids.appendChild(gh);
-				
-		document.body.insertBefore(grids, document.body.childNodes[0]);
-	</script>
+	<script src="responsive-grids.js"></script>
 </body>
 </html>
