@@ -112,13 +112,13 @@ display: inline-block;
 }
 
 @media screen and (min-width:481px){ /************************************* 481-768px */
-	/* GRID 2 */
-	#grid div.horiz {
-	  height: 25px;  /* height+border-bottom = line-height: 26px; */
-	}
+	/* GRID */
 	#grid {
 	  width: 480px; 
 	  margin-left: -240px;
+	}
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
 	}
 	#grid div.vert {
 	  width: 60px;
@@ -145,13 +145,13 @@ display: inline-block;
 }
 
 @media screen and (min-width:769px){ /************************************* 769-1024px */
-	/* GRID 3 */
-	#grid div.horiz {
-	  height: 25px;  /* height+border-bottom = line-height: 26px; */
-	}
+	/* GRID */
 	#grid {
 	  width: 750px; 
 	  margin-left: -375px;
+	}
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
 	}
 	#grid div.vert {
 	  width: 55px;
@@ -210,11 +210,13 @@ display: inline-block;
 	  margin-left: 10px;
 	  width: 700px; 
 	  float: left;
+	  
 	}
 
 	aside {
 	  margin-right: 10px;
 	  width: 220px; 
 	  float: right;
+	  
 	}
 }
