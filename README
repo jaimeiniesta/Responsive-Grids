@@ -1,16 +1,16 @@
 A simple HTML5 template prepared for responsive design and using Grids and Baseline/s
 Still under developement. 
 
-Dependencies: hashgrid.com (which uses jquery)
+Dependencies: none (deleted hashgrid and jquery)
 
-USE:
-- CMD+G to activate Grid columns visibility
+HOW TO USE:
+- calculate columns width and gaps at http://grids.heroku.com/
+- describe grids measurements within each meadia query in your css (see example)
 - change window size until you see another design (made it with other colors)
-- once you get another design you need to press J to adjust the corresponding grid
+- resize window to see the corresponding grid changing according to the mediaquery
 
 TO-DO:
 - fix visibility of last column of each design. 
-I changed the usage of hashgrid from border based visualization to borderless and setting a background. That might cause the last column invisibility. 
 - Different baselines for each design
 - 
 - 
