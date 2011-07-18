@@ -6,8 +6,7 @@ Dependencies: none (deleted hashgrid and jquery)
 HOW TO USE:
 - calculate columns width and gaps at http://grids.heroku.com/
 - describe grids measurements within each meadia query in your css (see example)
-- change window size until you see another design (made it with other colors)
-- resize window to see the corresponding grid changing according to the mediaquery
+- resize window to see the corresponding grid design (made it with other colors)
 
 TO-DO:
 - fix visibility of last column of each design. 
