@@ -6,8 +6,8 @@ gv.className = "vert-container";
 
 for (var i = 0; i < 50; i++) {
 	var gvi = document.createElement("div");
-	if(i==0) gvi.className = "vert first-line cols"+i;
-	else gvi.className = "vert cols"+i;
+	if(i==0) gvi.className = "vert first-line cols"+parseInt(i+1);
+	else gvi.className = "vert cols"+parseInt(i+1);
 	
 	gv.appendChild(gvi);
 }
