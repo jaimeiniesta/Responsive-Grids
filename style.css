@@ -62,33 +62,40 @@ footer small {
   overflow: hidden;
 }
 
-#grid div.horiz {
+#grid div.horiz-container {
+position: absolute;width: 100%; 
+}#grid div.horiz {
   width: 100%;  
+  overflow: hidden;
   border-bottom: 1px dotted #aaa;
   margin: 0;
   padding: 0;
 }
+
+#grid div.vert-container {
+position: absolute;height: 100%; 
+}
 #grid div.vert {
-  display: block;
-  height: 100%; 
+height: 100%; 
+display: inline-block;
 }
 
 @media screen and (min-width:0px){ /************************************* 0-480 */
-	/* GRID 1 */
-	#grid div.horiz {
-	  height: 25px;  /* height+border-bottom = line-height: 26px; */
-	}
-	#grid.grid-1 {
+	/* GRID */
+	#grid {
 	  width: 320px; 
 	  margin-left: -160px;
 	}
-	#grid.grid-1 div.vert {
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
+	}
+	#grid div.vert {
 	  width: 43px;
 	  margin-right: 10px; /* ((43+10)*6)-10 = 308 content width */
 	  background: #ff0;
 	  opacity: 0.1;
 	}
-	#grid.grid-1 div.vert.first-line {
+	#grid div.vert.first-line {
 	  margin-left: 5px;
 	}
 	
@@ -109,17 +116,17 @@ footer small {
 	#grid div.horiz {
 	  height: 25px;  /* height+border-bottom = line-height: 26px; */
 	}
-	#grid.grid-2 {
+	#grid {
 	  width: 480px; 
 	  margin-left: -240px;
 	}
-	#grid.grid-2 div.vert {
+	#grid div.vert {
 	  width: 60px;
 	  margin-right: 20px;  /* ((60+20)*6)-20 = 460 content width */
 	  background: #0f0;
 	  opacity: 0.1;
 	}
-	#grid.grid-2 div.vert.first-line {
+	#grid div.vert.first-line {
 	  margin-left: 10px;
 	}
 	
@@ -142,17 +149,17 @@ footer small {
 	#grid div.horiz {
 	  height: 25px;  /* height+border-bottom = line-height: 26px; */
 	}
-	#grid.grid-3 {
+	#grid {
 	  width: 750px; 
 	  margin-left: -375px;
 	}
-	#grid.grid-3 div.vert {
+	#grid div.vert {
 	  width: 55px;
 	  margin-right: 20px; /* ((55+20)*10)-20 = 730 content width */
 	  background: #f00;
 	  opacity: 0.1;
 	}
-	#grid.grid-3 div.vert.first-line {
+	#grid div.vert.first-line {
 	  margin-left: 10px;
 	}
 	
@@ -176,21 +183,21 @@ footer small {
 }
 
 @media screen and (min-width:1025px){ /************************************* >1025px */
-	/* GRID 4 */
-	#grid div.horiz {
-	  height: 25px;  /* height+border-bottom = line-height: 26px; */
-	}
-	#grid.grid-4 {
+	/* GRID */
+	#grid {
 	  width: 960px; 
 	  margin-left: -480px;
 	}
-	#grid.grid-4 div.vert {
+	#grid div.horiz {
+	  height: 25px;  /* height+border-bottom = line-height: 26px; */
+	}
+	#grid div.vert {
 	  width: 60px;
 	  margin-right: 20px; /* ((60+20)*12)-20  = 940 content width */
 	  background: #00f;
 	  opacity: 0.1;
 	}
-	#grid.grid-4 div.vert.first-line {
+	#grid div.vert.first-line {
 	  margin-left: 10px;
 	}
 	
