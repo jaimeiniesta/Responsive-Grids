@@ -57,12 +57,20 @@ footer small {
   position: absolute;
   top: 0;
   left: 50%;
+  width: 100%;  
+  height: 100%; 
+  overflow: hidden;
 }
 
 #grid div.horiz {
+  width: 100%;  
   border-bottom: 1px dotted #aaa;
   margin: 0;
   padding: 0;
+}
+#grid div.vert {
+  display: block;
+  height: 100%; 
 }
 
 @media screen and (min-width:0px){ /************************************* 0-480 */
