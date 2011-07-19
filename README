@@ -1,0 +1,14 @@
+A simple HTML5 template prepared for responsive design and using Grids and Baseline/s
+Still under developement. 
+
+Dependencies: none (deleted hashgrid and jquery)
+
+HOW TO USE:
+- calculate columns width and gaps at http://grids.heroku.com/
+- describe grids measurements within each media query in your css (see example)
+- resize window to see the corresponding grid design 
+
+TO-DO:
+- Different baselines for each design
+- 
+-

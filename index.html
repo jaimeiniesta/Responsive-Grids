@@ -3,77 +3,58 @@
 <head>
   <meta charset='utf-8'>
 
-  <title>zigotica/Responsive-Grids @ GitHub</title>
+  <title>Responsive Grids: bring some grids to your media queries</title>
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #33e57c;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #cc1a83; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #cc1a83; }
-    h3 { text-align: center; color: #cc1a83; }
-    a { color: #cc1a83; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
+  <link rel="stylesheet" href="style.css"> 
+
 </head>
 
 <body>
-  <a href="http://github.com/zigotica/Responsive-Grids"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+	<a href="http://github.com/zigotica/Responsive-Grids"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+	<section> 
+		<h1><a href="http://github.com/zigotica/Responsive-Grids">Responsive Grids</a>
+	      <small>by <a href="http:/zigotica.com">zigotica</a></small></h1> 
+	
+		<p class="summary">Responsive Grids is a very basic template that allows you to create a responsive design structure for 
+			different screen resolutions using Media Queries, Grids and Baselines.</p> 
+		
+		<ol>HOW TO USE:
+			<li>calculate your preferred columns width and gaps at http://grids.heroku.com/
+			<li>iterate for each design you want to serve through media queries
+			<li>describe grids measurements within each media query in your css (see example)
+			<li>stablish a main baseline or one baseline per media query
+			<li>resize window to see the corresponding grid design
+		</ol>
 
-  <div id="container">
+	    <h2>Dependencies</h2>
+		<ul>
+			<li>none
+		</ul>
 
-    <div class="download">
-      <a href="http://github.com/zigotica/Responsive-Grids/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/zigotica/Responsive-Grids/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
+	    <h2>Download</h2>
+		<ul>You can download this project in either
+			<li><a href="http://github.com/zigotica/Responsive-Grids/zipball/master">zip</a> or
+			<li><a href="http://github.com/zigotica/Responsive-Grids/tarball/master">tar</a> formats.
+		</ul>
 
-    <h1><a href="http://github.com/zigotica/Responsive-Grids">Responsive-Grids</a>
-      <span class="small">by <a href="http://github.com/zigotica">zigotica</a></span></h1>
+	    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+	      by running:
+	      <pre>$ git clone git://github.com/zigotica/Responsive-Grids</pre>
+	    </p>
 
-    <div class="description">
-      Basic template to create a responsive design structure using Grids and Baselines
-    </div>
-
-    <h2>Dependencies</h2>
-<p>none</p>
-<h2>Authors</h2>
-<p>zigotica (zigotica@gmail.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>Sergi Meseguer (zigotica@gmail.com)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/zigotica/Responsive-Grids/zipball/master">zip</a> or
-      <a href="http://github.com/zigotica/Responsive-Grids/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/zigotica/Responsive-Grids</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/zigotica/Responsive-Grids">zigotica/Responsive-Grids</a>
-    </div>
-
-  </div>
-
+	</section> 
+	<aside> 
+		<h2>Authors</h2>
+		<ul>
+			<li>Sergi Meseguer, <a href="http:/zigotica.com">zigotica</a> 
+		</ul>
+		<h2>Contact</h2>
+		<ul>
+			<li>Sergi Meseguer (zigotica@gmail.com)
+		</ul>
+	</aside> 
+	<footer><small>get the source code on GitHub : <a href="http://github.com/zigotica/Responsive-Grids">zigotica/Responsive-Grids</a></small></footer> 
+	<script src="responsive-grids.js"></script> 
   
 </body>
 </html>
