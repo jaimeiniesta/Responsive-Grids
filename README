@@ -5,12 +5,21 @@ Dependencies: none (deleted hashgrid and jquery)
 
 HOW TO USE:
 - calculate columns width and gaps at http://grids.heroku.com/
+<<<<<<< HEAD
 - describe grids measurements within each meadia query in your css (see example)
 - resize window to see the corresponding grid design (made it with other colors)
+=======
+- describe grids measurements within each media query in your css (see example)
+- resize window to see the corresponding grid design 
+>>>>>>> gh-pages
 
 TO-DO:
 - Different baselines for each design
 - 
+<<<<<<< HEAD
 - 
 
 
+=======
+-
+>>>>>>> gh-pages
