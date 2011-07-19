@@ -14,8 +14,7 @@ body, h1 {
 
 section h1 {
   font-size: 1.66666666666666666666em; /* 30 % 18 */
-  line-height: 1.73333333333333333332em; 
-  margin: 0.86666666666666666666em 0;
+  line-height: 1.73333333333333333332em; /* 26*2/30  = 1.73333333333333333333 spans 2 lines */ 
 }
 
 section p {
@@ -29,10 +28,6 @@ section p.summary {
   line-height: 1.3em;
   margin-bottom: 1.3em;
   color: #6CB3D7;
-}
-
-aside {
-  margin-top: 5.77777777777777777777em;
 }
 
 aside p {
@@ -182,12 +177,17 @@ display: inline-block;
 	  width: 505px; 
 	  float: left;
 	}
+	section h1 {
+	  margin: .86666666666666666666em 0; /* baseline * lines above / target fontsize:  26*2/30 = 1.73333333333333333333 / 2 = .86666666666666666666 */
+	}
 
 	aside {
+	  margin-top: 8.66666666666666666666em;  /* baseline * lines above / target fontsize:  26*6/18 = 8.66666666666666666666     */
 	  margin-right: 10px;
 	  width: 205px; 
 	  float: right;
 	}
+
 
 }
 
@@ -224,11 +224,14 @@ display: inline-block;
 	  float: left;
 	  
 	}
+	section h1 {
+	  margin: 1.73333333333333333333em 0 .86666666666666666666em 0; /* baseline * lines above / target fontsize:  26*2/30 = 1.73333333333333333333 / 2 = .86666666666666666666 */
+	}
 
 	aside {
+	  margin-top: 10.11111111111111111111em;  /* baseline * lines above / target fontsize:  26*7/18 = 10.11111111111111111111    */
 	  margin-right: 10px;
 	  width: 220px; 
 	  float: right;
-	  
 	}
 }
