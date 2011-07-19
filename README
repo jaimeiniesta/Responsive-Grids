@@ -4,22 +4,13 @@ Still under developement.
 Dependencies: none (deleted hashgrid and jquery)
 
 HOW TO USE:
-- calculate columns width and gaps at http://grids.heroku.com/
-<<<<<<< HEAD
-- describe grids measurements within each meadia query in your css (see example)
-- resize window to see the corresponding grid design (made it with other colors)
-=======
+- calculate your preferred columns width and gaps at http://grids.heroku.com/
+- iterate for each design you want to serve through media queries
 - describe grids measurements within each media query in your css (see example)
-- resize window to see the corresponding grid design 
->>>>>>> gh-pages
+- stablish a main baseline or one baseline per media query
+- resize window to see the corresponding grid design
 
 TO-DO:
 - Different baselines for each design
 - 
-<<<<<<< HEAD
 - 
-
-
-=======
--
->>>>>>> gh-pages
