@@ -7,7 +7,7 @@ HOW TO USE:
 - calculate your preferred columns width and gaps at http://grids.heroku.com/
 - iterate for each design you want to serve through media queries
 - describe grids measurements within each media query in your css (see example)
-- stablish a main baseline or one baseline per media query
+- establish a main baseline or one baseline per media query
 - resize window to see the corresponding grid design
 
 TO-DO:
