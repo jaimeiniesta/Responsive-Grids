@@ -55,7 +55,7 @@ section p.summary {
   color: #6CB3D7;
 }
 
-aside p {
+aside p, aside li {
   font-size: .77777777777777777777em; /* 14 / 18 = .77777777777777777777 */
   line-height: 1.85714285714285714285em; /* 26 / 14 = 1.85714285714285714285  */
   margin-bottom: 1.85714285714285714285em;
