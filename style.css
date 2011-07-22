@@ -75,56 +75,8 @@ footer small {
   padding: 5px;
 }
 
-/**************************************************************** GRID COMMON STYLES */
-#grid {
-  height: 100%;
-  left: 50%;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index:-1;
-}
-#grid div.horiz-container {
-  position: absolute;width: 100%;
-}
-#grid div.horiz {
-  border-bottom: 1px dotted #aaa;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  width: 100%;
-}
-#grid div.vert-container {
-  position: absolute;height: 100%;
-}
-#grid div.vert {
-  display: inline-block;
-  height: 100%;
-}
 
 @media screen and (min-width:0px) and (max-width:480px){ /************************************* 0-480 */
-  /* GRID */
-  #grid {
-    margin-left: -160px;
-    width: 320px;
-  }
-  #grid div.horiz {
-    height: 25px;  /* height+border-bottom = line-height: 26px; */
-  }
-  #grid div.vert {
-    background: #ff0;
-    margin-right: 10px; /* ((43+10)*6)-10 = 308 content width */
-    opacity: 0.05;
-    width: 54px;
-  }
-  #grid div.vert.first-line {
-    margin-left: 5px;
-  }
-  #grid div.vert.cols5 { /* this grid uses 5 cols */
-    margin-right: 0px;
-  }
-
   body {
     width: 320px;
   }
@@ -137,27 +89,6 @@ footer small {
 }
 
 @media screen and (min-width:481px) and (max-width:768px){ /************************************* 481-768px */
-  /* GRID */
-  #grid {
-    margin-left: -240px;
-    width: 480px;
-  }
-  #grid div.horiz {
-    height: 25px;  /* height+border-bottom = line-height: 26px; */
-  }
-  #grid div.vert {
-    background: #0f0;
-    margin-right: 20px;  /* ((60+20)*6)-20 = 460 content width */
-    opacity: 0.05;
-    width: 60px;
-  }
-  #grid div.vert.first-line {
-    margin-left: 10px;
-  }
-  #grid div.vert.cols6 { /* this grid uses 6 cols */
-    margin-right: 0px;
-  }
-
   body {
     width: 480px;
   }
@@ -167,32 +98,9 @@ footer small {
     margin-left: 10px;
     width: 460px;
   }
-
-
 }
 
 @media screen and (min-width:769px) and (max-width:1024px){ /************************************* 769-1024px */
-  /* GRID */
-  #grid {
-    margin-left: -375px;
-    width: 750px;
-  }
-  #grid div.horiz {
-    height: 25px;  /* height+border-bottom = line-height: 26px; */
-  }
-  #grid div.vert {
-    background: #300;
-    margin-right: 20px; /* ((55+20)*10)-20 = 730 content width */
-    opacity: 0.05;
-    width: 55px;
-  }
-  #grid div.vert.first-line {
-    margin-left: 10px;
-  }
-  #grid div.vert.cols10 { /* this grid uses 10 cols */
-    margin-right: 0px;
-  }
-
   body { /* 750 = 20 + 730 : 130/580 / 205,505 / 280,430 / 355,355 */
     width: 750px;
   }
@@ -212,32 +120,9 @@ footer small {
     margin-right: 10px;
     width: 205px;
   }
-
-
 }
 
 @media screen and (min-width:1025px){ /************************************* >1025px */
-  /* GRID */
-  #grid {
-    margin-left: -480px;
-    width: 960px;
-  }
-  #grid div.horiz {
-    height: 25px;  /* height+border-bottom = line-height: 26px; */
-  }
-  #grid div.vert {
-    background: #00f;
-    margin-right: 20px; /* ((60+20)*12)-20  = 940 content width */
-    opacity: 0.05;
-    width: 60px;
-  }
-  #grid div.vert.first-line {
-    margin-left: 10px;
-  }
-  #grid div.vert.cols12 { /* this grid uses 12 cols */
-    margin-right: 0px;
-  }
-
   body {  /* 960 = 20 + 940 : 140,780 / 220,700 / 300,620 / 380,540 / 460,460 */
     width: 960px;
   }
@@ -257,6 +142,4 @@ footer small {
     margin-top: 7.22222222222222222222em;  /* baseline * lines above / target fontsize:  26*5/18 = 7.22222222222222222222    */
     width: 220px;
   }
-
-
 }
