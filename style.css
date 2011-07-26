@@ -20,6 +20,7 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
+  margin-bottom: 1.44444444444444444444em;
 }
 
 section h1 {
@@ -99,6 +100,7 @@ footer small {
     width: 460px;
   }
 }
+
 
 @media screen and (min-width:769px) and (max-width:1024px){ /************************************* 769-1024px */
   body { /* 750 = 20 + 730 : 130/580 / 205,505 / 280,430 / 355,355 */
