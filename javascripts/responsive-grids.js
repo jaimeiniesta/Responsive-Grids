@@ -3,10 +3,10 @@ var ResponsiveGrids = (function(){
         var AUTHOR = "Sergi Meseguer @zigotica";
         var URL = "http://zigotica.github.com/Responsive-Grids/";
 
-        var css = document.createElement("link") 
-        css.href = "grids.css"; 
-        css.rel = "stylesheet"; 
-        css.type = "text/css"; 
+        var css = document.createElement("link")
+        css.href = "stylesheets/grids.css";
+        css.rel = "stylesheet";
+        css.type = "text/css";
         document.body.appendChild(css);
 
         var grids = document.createElement("div");
